@@ -698,7 +698,7 @@ module.exports = JSON.parse('{"appName":"Application uuHomework","About":{"heade
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "chunks/index/" + chunkId + "-" + {"routes_about_js":"2cdfd8908803d30f12e0","routes_init-app-workspace_js":"87f8507cee9d53052a85","routes_control-panel_js":"6803f44a0c9b1407ff26","routes_shopping-list-detail_js":"c9d6bde7a4014c481a3a","routes_shopping-lists_js":"f8b29a86904d54294917","lsi_cs_json":"16a59738119cfd7420a5"}[chunkId] + ".js";
+/******/ 			return "chunks/index/" + chunkId + "-" + {"routes_about_js":"2cdfd8908803d30f12e0","routes_init-app-workspace_js":"a22fed43b8a47a58f2c0","routes_control-panel_js":"6803f44a0c9b1407ff26","routes_shopping-list-detail_js":"09ed27c8d58fa61f3475","routes_shopping-lists_js":"856c3c4ee9c313abd0e8","lsi_cs_json":"16a59738119cfd7420a5"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -718,7 +718,7 @@ module.exports = JSON.parse('{"appName":"Application uuHomework","About":{"heade
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3361a25e641e1faee230")
+/******/ 		__webpack_require__.h = () => ("a0c33bdfc04ae9474515")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/harmony module decorator */

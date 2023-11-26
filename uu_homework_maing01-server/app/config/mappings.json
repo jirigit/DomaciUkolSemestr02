@@ -1,0 +1,86 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "realization": "api/controllers/HomeworkMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "sys/uuAppWorkspace/load": {
+        "realization": "api/controllers/HomeworkMainController.load",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "sys/uuAppWorkspace/loadBasicData": {
+        "realization": "api/controllers/HomeworkMainController.loadBasicData",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "helloWorld": {
+        "realization": "api/controllers/GreetingController.helloWorld",
+        "httpMethod": ["GET"],
+        "type": "CMD"
+      },
+      "shoppingList/create": {
+        "realization": "api/controllers/ShoppingListController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "shoppingList/getAll": {
+        "realization": "api/controllers/ShoppingListController.getAll",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "shoppingList/detail": {
+        "realization": "api/controllers/ShoppingListController.detail",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "shoppingList/delete": {
+        "realization": "api/controllers/ShoppingListController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "shoppingList/update": {
+        "realization": "api/controllers/ShoppingListController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "shoppingList/addItem": {
+        "realization": "api/controllers/ShoppingListController.addItem",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "shoppingList/updateItem": {
+        "realization": "api/controllers/ShoppingListController.updateItem",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "shoppingList/deleteItem": {
+        "realization": "api/controllers/ShoppingListController.deleteItem",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "shoppingList/addMember": {
+        "realization": "api/controllers/ShoppingListController.addMember",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "shoppingList/deleteMember": {
+        "realization": "api/controllers/ShoppingListController.deleteMember",
+        "httpMethod": "POST",
+        "type": "CMD"
+      }
+    }
+  }
+}

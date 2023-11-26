@@ -44,7 +44,7 @@ const EditNameModal = createVisualComponent({
         open={props.show}
         onClose={props.onClose}
         actionDirection="horizontal"
-        header={<Lsi lsi={{ en: "Edit name", cs: "Upravit název" }} />}
+        header={<Lsi lsi={{ en: "Uprav jméno", cs: "Upravit název" }} />}
       >
         <Form onSubmit={props.onSubmit}>
           <div className={Config.Css.css("padding: 1rem; text-align: right")}>

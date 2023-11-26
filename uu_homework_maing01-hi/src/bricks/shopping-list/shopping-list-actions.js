@@ -45,8 +45,8 @@ const ShoppingListActions = createVisualComponent({
       <ShoppingListActionsBox>
         <Form onSubmit={props.onItemCreate}>
           <div className={Config.Css.css("display: flex; justify-content: left; padding: 1rem")}>
-            <FormText name="newItem" placeholder="New item" required/>
-            <SubmitButton>Add new item</SubmitButton>
+            <FormText name="newItem" placeholder="Nová položka" required/>
+            <SubmitButton>Přidej položku</SubmitButton>
           </div>
         </Form>
         <SubmitButton onClick={props.onDisplayChecked}>{`Display ${
@@ -54,11 +54,11 @@ const ShoppingListActions = createVisualComponent({
         }`}</SubmitButton>
         {userContext.isOwner(props.ownerId) && (
           <SubmitButton className={Config.Css.css("margin-left: 1rem")} onClick={props.onNameEdit}>
-            Edit name
+            Uprav jméno
           </SubmitButton>
         )}
         <SubmitButton onClick={props.onMembersClick} className={Config.Css.css("margin-left: 1rem")}>
-          Display members
+          Zobraz členy
         </SubmitButton>
       </ShoppingListActionsBox>
     );

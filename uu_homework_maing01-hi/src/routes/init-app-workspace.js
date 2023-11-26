@@ -106,7 +106,7 @@ let InitAppWorkspace = createVisualComponent({
                 />
 
                 <div className={Css.formControls()}>
-                  <Uu5Forms.SubmitButton colorScheme="primary">
+                  <Uu5Forms.SubmitButton colorScheme="secondary">
                     <Lsi import={importLsi} path={["InitAppWorkspace", "initialize"]} />
                   </Uu5Forms.SubmitButton>
                 </div>

@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   pointer-events: none;
-  color: #2196f3;
+  color: #3d8ad7;
   line-height: 1.15;
 }
 .uu-app-loading[data-visual-ready] {
@@ -34,7 +34,7 @@
 }
 
 .uu-app-loading-name {
-  color: #212121;
+  color: #3466ef;
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
@@ -66,4 +66,16 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+
+.uuelements-11j9j7j { 
+
+  background-color: rgb(235, 17, 17) !important; 
+}
+
+button{
+
+  background-color: rgb(235, 17, 17);
+
 }

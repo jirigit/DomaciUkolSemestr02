@@ -49,8 +49,8 @@ const ShoppingListActions = createVisualComponent({
             <SubmitButton>Přidej položku</SubmitButton>
           </div>
         </Form>
-        <SubmitButton onClick={props.onDisplayChecked}>{`Display ${
-          props.displayChecked ? "unchecked" : "all"
+        <SubmitButton onClick={props.onDisplayChecked}>{`Zobraz ${
+          props.displayChecked ? "koupené" : "všechny"
         }`}</SubmitButton>
         {userContext.isOwner(props.ownerId) && (
           <SubmitButton className={Config.Css.css("margin-left: 1rem")} onClick={props.onNameEdit}>

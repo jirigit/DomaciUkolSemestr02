@@ -2,7 +2,7 @@
 import { createComponent, useDataObject, useState } from "uu5g05";
 import Config from "./config/config";
 import UserContext from "./userContext";
-import { users } from "../../fakeData/fakeData";
+import { users } from "../../dummyData/dummyData";
 //@@viewOff:imports
 
 export const UserProvider = createComponent({

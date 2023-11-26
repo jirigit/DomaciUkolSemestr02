@@ -1,0 +1,64 @@
+{
+  "itemList": [
+  {
+    "name": "Nefdsaw",
+    "awid": "22222222222222222222222222222222",
+    "ownerId": "9586-6585-4581-0000",
+    "items": [
+      {
+        "name": "chlebicek2",
+        "id": "6557390772bb7771a6a47289",
+        "completed": true
+      },
+      {
+        "name": "test",
+        "id": "6557390f72bb7771a6a4728a"
+      },
+      {
+        "name": "test",
+        "id": "6557397f188dd1e08f099bc8",
+        "completed": true
+      }
+    ],
+    "members": [],
+    "archived": false,
+    "sys": {
+      "cts": "2023-11-17T09:53:26.262Z",
+      "mts": "2023-11-17T11:15:04.600Z",
+      "rev": 19
+    },
+    "id": "65573816160ec963e8ae023c"
+  },
+  {
+    "name": "Favorite list",
+    "awid": "22222222222222222222222222222222",
+    "ownerId": "9586-6585-4581-0000",
+    "items": [
+      {
+        "name": "Bread",
+        "id": "65575486a68db91241838858",
+        "completed": false
+      },
+      {
+        "name": "Cheese",
+        "id": "6557548aa68db91241838859",
+        "completed": false
+      }
+    ],
+    "members": [],
+    "archived": true,
+    "sys": {
+      "cts": "2023-11-17T11:54:34.998Z",
+      "mts": "2023-11-17T11:54:50.211Z",
+      "rev": 2
+    },
+    "id": "6557547a01997363a46e93ca"
+  }
+],
+  "pageInfo": {
+  "pageIndex": 0,
+    "pageSize": 9007199254740991,
+    "total": 2
+},
+  "uuAppErrorMap": {}
+}

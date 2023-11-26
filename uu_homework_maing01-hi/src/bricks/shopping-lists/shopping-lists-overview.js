@@ -104,7 +104,7 @@ const ShoppingListsOverview = createVisualComponent({
     const shoppingListItems = props.shoppingListDataList.data.filter((item) => item !== undefined);
     return (
       <>
-        <h1>Shopping lists</h1>
+        <h1>Nákupní seznamy</h1>
         <div className={Config.Css.css("display: flex; justify-content: right; align-items: center; padding: 1rem")}>
           <SubmitButton onClick={() => setDisplayArchived(!displayArchived)}>{`Display ${displayArchived ? "active" : "all"}`}</SubmitButton>
           <SubmitButton onClick={() => setOpen(true)} className={Config.Css.css("margin-left: 1rem")}>

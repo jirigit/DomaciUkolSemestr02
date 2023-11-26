@@ -119,7 +119,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(this["__webpack_jsonp_uu_homework_maing01_hi_0_1_0_index"] = this["__webpack_jsonp_uu_homework_maing01_hi_0_1_0_index"] || []).push([["lsi_cs_json"],{
+this["webpackHotUpdate"]("lsi_cs_json",{
 
 /***/ "./lsi/cs.json":
 /*!*********************!*\
@@ -131,4 +131,4 @@ module.exports = JSON.parse('{"appName":"Aplikace uuHomework","About":{"header":
 
 /***/ })
 
-}]);
+});
